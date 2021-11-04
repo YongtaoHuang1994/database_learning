@@ -110,6 +110,6 @@ int Atom_length(const char *str) {
 		for (p = buckets[i]; p; p = p->link)
 			if (p->str == str)
 				return p->len;
-	assert(0);
+	assert(0); // 用于标记不可能发生的事情，如果程序走到这里，就是错了
 	return 0;
 }

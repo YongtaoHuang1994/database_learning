@@ -2,5 +2,5 @@ static char rcsid[] = "$Id: H:/drh/idioms/book/RCS/except.doc,v 1.10 1997/02/21 
 #include "assert.h"
 const Except_T Assert_Failed = { "Assertion failed" };
 void (assert)(int e) {
-	assert(e);
+	assert(e); 
 }
