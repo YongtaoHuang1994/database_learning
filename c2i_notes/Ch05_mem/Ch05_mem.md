@@ -7,7 +7,7 @@
 
 #### void* malloc (size_t size);
 其中size_t代表unsigned int。
-malloc:分配一块size Byte大小的内存，返回一个指向该块内存开始的指针，指针类型是void。
+malloc: 分配一块size Byte大小的内存，返回一个指向该块内存开始的指针，指针类型是void。
 
 #### void* calloc (size_t num, size_t size);
 为一个大小为num的数组分配内存，每个元素的大小是size，把每个元素初始化为0。
