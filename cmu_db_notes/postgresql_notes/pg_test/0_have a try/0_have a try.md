@@ -45,3 +45,23 @@ $ create index id_index on tbl_test (id);
 $ explain analyse select * from tbl_test where id = 56000;
 ```
 ![avatar](12测试索引-2.png)
+
+
+#### (13) 模式
+![avatar](13模式一.png)
+
+#### (14) 模式
+![avatar](14模式二.png)
+
+
+#### (15) 子查询
+![avatar](15子查询.png)
+
+#### (16) 视图
+![avatar](16视图.png)
+
+#### (17) 事务
+![avatar](17事务.png)
+
+
+
