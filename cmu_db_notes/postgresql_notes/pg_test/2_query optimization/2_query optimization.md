@@ -4,6 +4,10 @@
 马上就进入pg_plan_queries->pg_plan_query->planner
 
 ![avatar](planner函数.png)
+
+pull_up_sublinks() 上提子连接
+代码位于./optimizer/prep/prejointree.c
+
 #### optimizer目录
 ![avatar](optimizer目录.png)
 ![avatar](planner入口.png)
